@@ -1,0 +1,18 @@
+/*.footer {
+  display: flex;
+  flex-direction: row;
+}*/
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+  // background-color: cadetblue;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  // background-color: chartreuse;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}

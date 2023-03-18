@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+body {
+  font-family: "Heebo";
+  font-weight: 400;
+  color: #21243d;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-line {
+  width: 60%;
+}
+@media (max-width: 767px) {
+  .blog-line {
+    width: 90%;
+  }
+}
+hr {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #e0e0e0;
+  height: 1px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+svg {
+  fill: #21243d;
+}
+@import "components/header";
+@import "components/footer";
+@import "components/recent-posts";
+@import "components/feature-works";
+@import "components/modal/modal";

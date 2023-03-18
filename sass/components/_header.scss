@@ -1,0 +1,131 @@
+//Navigation
+
+.nav-list {
+  display: flex;
+  gap: 33px;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.46;
+  margin-right: 5%;
+}
+/*@media (max-width: 766px) {
+  .nav-list {
+    display: none;
+  }
+}*/
+//Hero
+.preface {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 71px;
+
+  //  background-color: darkblue;
+}
+.hero-text-box {
+  width: 506px;
+  // background-color: blue;
+}
+.hero {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.36;
+  /* background-color: gold;*/
+}
+.paragraf-box {
+  width: 497px;
+
+  // background-color: coral;
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+button {
+  cursor: pointer;
+  margin: 0em;
+  border-width: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.45;
+  color: #ffffff;
+}
+.resume-button {
+  width: 208px;
+  height: 47px;
+  left: 148px;
+  top: 477px;
+  background: #ff6464;
+  border-radius: 2px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.john {
+  height: 100%;
+  width: 100%;
+  //object-fit: scale-down;
+  border-radius: 100%;
+  position: absolute;
+  top: -13px;
+  right: -5px;
+}
+
+.jhon-portret {
+  height: 245px;
+  width: 245px;
+  margin-top: 30px;
+  background-color: #edf7fa;
+  border-radius: 100%;
+  //top: 13px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .nav-list {
+    justify-content: flex-end;
+  }
+  .preface {
+    // display: flex;
+    flex-direction: column-reverse;
+    //justify-content: space-around;
+    margin-top: 0;
+    justify-content: center;
+    align-content: center;
+    // background-color: chartreuse;
+  }
+  .hero {
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: center;
+  }
+  .jhon-portret {
+    height: 170px;
+    width: 170px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-text-box {
+    width: 312px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    //background-color: blue;
+  }
+  .paragraf-box {
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .resume-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .title {
+    text-align: right;
+  }*/
+}
